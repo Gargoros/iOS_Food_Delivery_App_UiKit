@@ -25,6 +25,7 @@
 		8CD08DDD2CB001AD00FE5B9D /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8CD08DCF2CB001AD00FE5B9D /* Roboto-Regular.ttf */; };
 		8CD08DDE2CB001AD00FE5B9D /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8CD08DD02CB001AD00FE5B9D /* Roboto-Thin.ttf */; };
 		8CD08DDF2CB001AD00FE5B9D /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8CD08DD12CB001AD00FE5B9D /* Roboto-ThinItalic.ttf */; };
+		8CD08DE22CB0030A00FE5B9D /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD08DE12CB0030A00FE5B9D /* UIFont+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		8CD08DCF2CB001AD00FE5B9D /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		8CD08DD02CB001AD00FE5B9D /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		8CD08DD12CB001AD00FE5B9D /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		8CD08DE12CB0030A00FE5B9D /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		8CD08DC32CB0016C00FE5B9D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8CD08DE02CB002EB00FE5B9D /* Extensions */,
 				8CD08DC42CB0017700FE5B9D /* Fonts */,
 			);
 			path = Resources;
@@ -125,6 +128,14 @@
 				8CD08DD12CB001AD00FE5B9D /* Roboto-ThinItalic.ttf */,
 			);
 			path = Roboto;
+			sourceTree = "<group>";
+		};
+		8CD08DE02CB002EB00FE5B9D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8CD08DE12CB0030A00FE5B9D /* UIFont+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +223,7 @@
 			files = (
 				8CD08DB42CAFFC4B00FE5B9D /* ViewController.swift in Sources */,
 				8CD08DB02CAFFC4B00FE5B9D /* AppDelegate.swift in Sources */,
+				8CD08DE22CB0030A00FE5B9D /* UIFont+Extension.swift in Sources */,
 				8CD08DB22CAFFC4B00FE5B9D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
