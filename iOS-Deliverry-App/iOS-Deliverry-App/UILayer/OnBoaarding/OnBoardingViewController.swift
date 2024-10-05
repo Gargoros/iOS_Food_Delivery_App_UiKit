@@ -16,7 +16,7 @@ class OnBoardingViewController: UIViewController {
     private let pageViewController: UIPageViewController = UIPageViewController(transitionStyle: .scroll, navigationOrientation: .horizontal)
     private let pageControl = UIPageControl()
     private let bottomButtonView = UIButton()
-    weak var viewOutput: OnBoardingViewOutput!
+    var viewOutput: OnBoardingViewOutput!
     
     init(
         pages: [OnBoardingPartViewController] = [OnBoardingPartViewController](),
@@ -54,6 +54,7 @@ private extension OnBoardingViewController {
             bottomButtonView.setTitle(pages[3].buttonText, for: .normal)
         case 3:
             print("Exit")
+            viewOutput.OnboardingFinish()
         default:
             break
         }
