@@ -13,7 +13,7 @@ enum AppColors {
     static let gray = UIColor().hex(0xECF0F1)
     static let darkGray = UIColor().hex(0x34495E)
     static let black = UIColor().hex(0x34495E)
-    static let white = UIColor().hex(0x000000)
+    static let white = UIColor().hex(0xFFFFFF)
     static let lightGray = UIColor().hex(0x808080)
     static let yellow = UIColor().hex(0xFFC107)
     static let green = UIColor().hex(0x2ECC71)
