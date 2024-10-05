@@ -20,18 +20,36 @@ class OnBoardingCoordinator: Coordinator {
 private extension OnBoardingCoordinator {
     
     func showOnboarding() {
-        var pages = [UIViewController]()
+        var pages = [OnBoardingPartViewController]()
         
-        let firstVC = UIViewController()
-        firstVC.view.backgroundColor = .gray
-        let secondVC = UIViewController()
-        secondVC.view.backgroundColor = .magenta
-        let thirdVC = UIViewController()
-        thirdVC.view.backgroundColor = .link
+        let firstVC = OnBoardingPartViewController()
+        firstVC.imageToShow =  UIImage(resource: .chickenLeg)
+        firstVC.titleText = "Delicious Food"
+        firstVC.descriptionText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        firstVC.buttonText = "Next"
         
+        let secondVC = OnBoardingPartViewController()
+        secondVC.imageToShow = UIImage(resource: .shipped)
+        secondVC.titleText = "Fast Shipping"
+        secondVC.descriptionText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum rhoncus nulla."
+        secondVC.buttonText = "Next"
+        
+        let thirdVC = OnBoardingPartViewController()
+        thirdVC.imageToShow = UIImage(resource: .medal)
+        thirdVC.titleText = "Certificate Food"
+        thirdVC.descriptionText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultricies mauris a id."
+        thirdVC.buttonText = "Next"
+
+        let fourthVC = OnBoardingPartViewController()
+        fourthVC.imageToShow = UIImage(resource: .creditCard)
+        fourthVC.titleText = "Payment Online"
+        fourthVC.descriptionText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui ultricies sit massa."
+        fourthVC.buttonText = "Cool!"
+          
         pages.append(firstVC)
         pages.append(secondVC)
         pages.append(thirdVC)
+        pages.append(fourthVC)
         
         let presenter = OnBoardingViewPresenter(coordinator: self)
         let viewController = OnBoardingViewController(pages: pages, viewOutput: presenter )

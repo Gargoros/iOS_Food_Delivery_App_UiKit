@@ -20,7 +20,5 @@ class OnBoardingViewPresenter: OnBoardingViewOutput {
     }
     func OnboardingFinish() {
         coordinator.finish()
-    }
-    //MARK: - Views
-    
+    }    
 }
