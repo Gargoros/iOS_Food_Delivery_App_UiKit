@@ -14,6 +14,7 @@ class OnBoardingCoordinator: Coordinator {
     }
     override func finish() {
         print("OnBoardingCoordinator finish")
+        finishDelegate?.coordinatorDidFinish(childCoordinator: self)
     }
 }
 

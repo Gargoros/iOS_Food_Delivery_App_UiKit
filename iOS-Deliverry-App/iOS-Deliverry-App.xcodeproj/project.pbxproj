@@ -18,6 +18,7 @@
 		8C557B3D2CB144E20043DC74 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C557B3C2CB144E20043DC74 /* OnBoardingViewController.swift */; };
 		8C557B3F2CB1451F0043DC74 /* OnBoardingViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C557B3E2CB1451F0043DC74 /* OnBoardingViewPresenter.swift */; };
 		8C557B412CB154CB0043DC74 /* OnBoardingPartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C557B402CB154CB0043DC74 /* OnBoardingPartViewController.swift */; };
+		8C557B442CB180900043DC74 /* UserStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C557B432CB180900043DC74 /* UserStorage.swift */; };
 		8CD08DB02CAFFC4B00FE5B9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD08DAF2CAFFC4B00FE5B9D /* AppDelegate.swift */; };
 		8CD08DB22CAFFC4B00FE5B9D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD08DB12CAFFC4B00FE5B9D /* SceneDelegate.swift */; };
 		8CD08DB42CAFFC4B00FE5B9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD08DB32CAFFC4B00FE5B9D /* ViewController.swift */; };
@@ -53,6 +54,7 @@
 		8C557B3C2CB144E20043DC74 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
 		8C557B3E2CB1451F0043DC74 /* OnBoardingViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewPresenter.swift; sourceTree = "<group>"; };
 		8C557B402CB154CB0043DC74 /* OnBoardingPartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingPartViewController.swift; sourceTree = "<group>"; };
+		8C557B432CB180900043DC74 /* UserStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStorage.swift; sourceTree = "<group>"; };
 		8CD08DAC2CAFFC4B00FE5B9D /* iOS-Deliverry-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Deliverry-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD08DAF2CAFFC4B00FE5B9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CD08DB12CAFFC4B00FE5B9D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -158,6 +160,14 @@
 			path = OnBoaarding;
 			sourceTree = "<group>";
 		};
+		8C557B422CB180640043DC74 /* ServicesLayer */ = {
+			isa = PBXGroup;
+			children = (
+				8C557B432CB180900043DC74 /* UserStorage.swift */,
+			);
+			path = ServicesLayer;
+			sourceTree = "<group>";
+		};
 		8CD08DA32CAFFC4B00FE5B9D = {
 			isa = PBXGroup;
 			children = (
@@ -177,6 +187,7 @@
 		8CD08DAE2CAFFC4B00FE5B9D /* iOS-Deliverry-App */ = {
 			isa = PBXGroup;
 			children = (
+				8C557B422CB180640043DC74 /* ServicesLayer */,
 				8C557B3A2CB1446A0043DC74 /* UILayer */,
 				8C557B372CB1416C0043DC74 /* App */,
 				8C557B242CB121F60043DC74 /* NavigationLayer */,
@@ -330,6 +341,7 @@
 				8C557B322CB13B090043DC74 /* ListCoordinator.swift in Sources */,
 				8C557B2E2CB13A870043DC74 /* HomeCoordinator.swift in Sources */,
 				8C557B362CB13B550043DC74 /* TabBarController.swift in Sources */,
+				8C557B442CB180900043DC74 /* UserStorage.swift in Sources */,
 				8C557B282CB1225A0043DC74 /* Coordinator.swift in Sources */,
 				8C557B3F2CB1451F0043DC74 /* OnBoardingViewPresenter.swift in Sources */,
 				8C557B2C2CB135070043DC74 /* OnBoardingCoordinator.swift in Sources */,
