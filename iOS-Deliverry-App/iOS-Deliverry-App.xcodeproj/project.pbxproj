@@ -19,6 +19,7 @@
 		8C557B3F2CB1451F0043DC74 /* OnBoardingViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C557B3E2CB1451F0043DC74 /* OnBoardingViewPresenter.swift */; };
 		8C557B412CB154CB0043DC74 /* OnBoardingPartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C557B402CB154CB0043DC74 /* OnBoardingPartViewController.swift */; };
 		8C557B442CB180900043DC74 /* UserStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C557B432CB180900043DC74 /* UserStorage.swift */; };
+		8C557B472CB1BBC10043DC74 /* SceneFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C557B462CB1BBC10043DC74 /* SceneFactory.swift */; };
 		8CD08DB02CAFFC4B00FE5B9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD08DAF2CAFFC4B00FE5B9D /* AppDelegate.swift */; };
 		8CD08DB22CAFFC4B00FE5B9D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD08DB12CAFFC4B00FE5B9D /* SceneDelegate.swift */; };
 		8CD08DB42CAFFC4B00FE5B9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD08DB32CAFFC4B00FE5B9D /* ViewController.swift */; };
@@ -55,6 +56,7 @@
 		8C557B3E2CB1451F0043DC74 /* OnBoardingViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewPresenter.swift; sourceTree = "<group>"; };
 		8C557B402CB154CB0043DC74 /* OnBoardingPartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingPartViewController.swift; sourceTree = "<group>"; };
 		8C557B432CB180900043DC74 /* UserStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStorage.swift; sourceTree = "<group>"; };
+		8C557B462CB1BBC10043DC74 /* SceneFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneFactory.swift; sourceTree = "<group>"; };
 		8CD08DAC2CAFFC4B00FE5B9D /* iOS-Deliverry-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Deliverry-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD08DAF2CAFFC4B00FE5B9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CD08DB12CAFFC4B00FE5B9D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 		8C557B3A2CB1446A0043DC74 /* UILayer */ = {
 			isa = PBXGroup;
 			children = (
+				8C557B452CB1BB9B0043DC74 /* SceneFactory */,
 				8C557B3B2CB144A70043DC74 /* OnBoaarding */,
 			);
 			path = UILayer;
@@ -166,6 +169,14 @@
 				8C557B432CB180900043DC74 /* UserStorage.swift */,
 			);
 			path = ServicesLayer;
+			sourceTree = "<group>";
+		};
+		8C557B452CB1BB9B0043DC74 /* SceneFactory */ = {
+			isa = PBXGroup;
+			children = (
+				8C557B462CB1BBC10043DC74 /* SceneFactory.swift */,
+			);
+			path = SceneFactory;
 			sourceTree = "<group>";
 		};
 		8CD08DA32CAFFC4B00FE5B9D = {
@@ -342,6 +353,7 @@
 				8C557B2E2CB13A870043DC74 /* HomeCoordinator.swift in Sources */,
 				8C557B362CB13B550043DC74 /* TabBarController.swift in Sources */,
 				8C557B442CB180900043DC74 /* UserStorage.swift in Sources */,
+				8C557B472CB1BBC10043DC74 /* SceneFactory.swift in Sources */,
 				8C557B282CB1225A0043DC74 /* Coordinator.swift in Sources */,
 				8C557B3F2CB1451F0043DC74 /* OnBoardingViewPresenter.swift in Sources */,
 				8C557B2C2CB135070043DC74 /* OnBoardingCoordinator.swift in Sources */,
